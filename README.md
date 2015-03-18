@@ -6,14 +6,14 @@ Function: Processes two datasets, Train & Test datasets and creates a tidy datas
 
 ## Inputs: Both data sets are identical in structure
 
-### a) Train Dataset. File names in this dataset are
+### a) Train Dataset. 
 	Varibles(features) in each observation are - 561
 	Each observation represents a set of measurements (variables) 
-         for an activity class (total 6) and subject (total 30)
-### b) Test Dataset. File names in this dataset are
+        for an activity class (total 6) and subject (total 30)
+### b) Test Dataset. 
 	Varibles(features) in each observation are - 561
 	Each observation represents a set of measurements (variables) 
-         for an activity class (total 6) and subject (total 30)
+        for an activity class (total 6) and subject (total 30)
 ## Output:
  Tidy Data Set has 180 rows each corresponding one activity class and subject (6 x 30 = 180)
  Out of the 561 variables from the original dataset, only 66 variables representing and mean 
@@ -45,6 +45,7 @@ Function: Processes two datasets, Train & Test datasets and creates a tidy datas
 
 ###4. Appropriately label the data set with descriptive variable names. 
 
-###5. Create a second, independent **tidy data set** and save it as a file "./x_tidy_summary.txt"
-   with the average of each variable for each activity and each subject.
+###5. Create a second, independent tidy data set.
+   file name "./x_tidy_summary.txt"
+   captures average of each variable for each activity and each subject.
    used dplyr function summarise_each to summarize each column by Activity and Subject.
